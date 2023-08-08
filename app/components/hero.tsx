@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Hero() {
     return (
-        <section className="relative">
+        <section className="relative" id="hero">
 
             <div className="max-w-6xl mx-auto px-4 sm:px-6 flex justify-center">
 

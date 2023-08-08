@@ -24,7 +24,7 @@ export default function Features() {
     return (
         <section className="relative" id="features">
 
-            <div className="absolute inset-0 bg-gray-100 pointer-events-none mb-16" aria-hidden="true"/>
+            <div className="absolute inset-0 bg-gray-100 pointer-events-none" aria-hidden="true"/>
 
             <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
                 <div className="pt-12 md:pt-20">
@@ -133,7 +133,7 @@ export default function Features() {
                                                     </a>
 
                                                 </div>
-                                                <ul className="list-disc p-2 text-gray-600 text-leftv">
+                                                <ul className="list-disc p-2 text-gray-600 text-left">
                                                     <li>Conveniência: Consultas
                                                         virtuais no conforto do seu lar
                                                     </li>
