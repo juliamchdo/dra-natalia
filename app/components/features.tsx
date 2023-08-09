@@ -5,7 +5,6 @@ import {Transition} from '@headlessui/react'
 import {RiHomeOfficeLine} from 'react-icons/ri'
 import {TbHomeHeart} from 'react-icons/tb'
 import {FaRegHospital, FaWhatsapp} from "react-icons/fa";
-import Map from "@components/map";
 
 
 export default function Features() {
@@ -215,7 +214,6 @@ export default function Features() {
                                         unmount={false}
                                     >
                                         <div className="relative inline-flex flex-col">
-                                            <Map></Map>
                                         </div>
                                     </Transition>
                                 </div>
