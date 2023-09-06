@@ -5,8 +5,7 @@ import LogoImage from "@/public/images/logo.svg";
 export default function Logo() {
   return (
     <Link href="/" aria-label="Cruip" >
-      <Image src={LogoImage} id="logo"
-             alt="Logo"/>
+      <Image src={LogoImage} id="logo" alt="Logo"/>
     </Link>
   )
 }
