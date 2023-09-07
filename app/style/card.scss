@@ -1,5 +1,84 @@
-.card{
-  max-width: 35rem;
-  max-height: 220rem;
-  box-shadow: 0 0 #0000;
+.card {
+  perspective: 1000px;
+  width: 25rem;
+  height: 18.75rem;
+
+  .card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+
+    .card-front, .card-back {
+      width: 100%;
+      height: 100%;
+      border-radius: 1rem;
+      backface-visibility: hidden;
+      position: absolute;
+      box-shadow: 19px 21px 15px -3px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-back {
+      background-color: #C6A264;
+      transform: rotateY(180deg);
+
+    }
+
+    .card-text {
+      max-width: 20rem;
+      font-weight: 600;
+      font-size: 1.6rem;
+      text-align: center;
+      position: absolute;
+      color: #fff;
+    }
+
+    .card-photo {
+      width: inherit;
+      height: inherit;
+      background-blend-mode: multiply;
+      background-color: rgba(140, 140, 140, 0.89);
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 1rem;
+    }
+
+    .photo-1 {
+      background-image: url("../../public/images/diabetes.jpg");
+    }
+
+    .photo-2 {
+      background-image: url("../../public/images/obesidade.jpg");
+    }
+
+    .photo-3 {
+      background-image: url("../../public/images/osteoporose.jpg");
+    }
+
+    .photo-4 {
+      background-image: url("../../public/images/tireoide.jpg");
+    }
+
+    .photo-5 {
+      background-image: url("../../public/images/menopausa.jpg");
+    }
+
+    .photo-6 {
+      background-image: url("../../public/images/andropausa.jpg");
+    }
+
+    .photo-7 {
+      background-image: url("../../public/images/renal.jpg");
+    }
+
+    .photo-8 {
+      background-image: url("../../public/images/transicao.jpg");
+    }
+  }
+
+  &:hover .card-inner{
+    transform: rotateY(180deg);
+  }
 }
