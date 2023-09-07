@@ -5,7 +5,7 @@ export const metadata = {
 
 import Hero from '@components/hero'
 import Features from '@components/features'
-import FeaturesBlocks from '@components/features-blocks'
+import Especialidades from '@components/Especialidades'
 import Testimonials from '@components/testimonials'
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
         <>
             <Hero/>
             <Features/>
-            <FeaturesBlocks/>
+            <Especialidades/>
             <Testimonials/>
         </>
     )
