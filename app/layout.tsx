@@ -2,7 +2,7 @@ import '@/app/style/style.css'
 
 import { Inter } from 'next/font/google'
 
-import Header from '@components/ui/header'
+import Header from '@components/ui/Header'
 import Banner from '@components/banner'
 
 const inter = Inter({
