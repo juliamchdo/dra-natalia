@@ -34,8 +34,8 @@ export default function Header() {
                                       className="menu-items font-medium px-5 py-3 flex items-center transition duration-150 ease-in-out">Atendimentos</span>
                             </li>
                             <li>
-                                <span onClick={() => handleClickScroll('experience')}
-                                      className="menu-items font-medium px-5 py-3 flex items-center transition duration-150 ease-in-out">Sobre</span>
+                                <span onClick={() => handleClickScroll('especialidades')}
+                                      className="menu-items font-medium px-5 py-3 flex items-center transition duration-150 ease-in-out">Especialidades</span>
                             </li>
                             <li>
                                 <span onClick={() => handleClickScroll('contact')}
