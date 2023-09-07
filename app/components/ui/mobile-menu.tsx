@@ -78,7 +78,7 @@ export default function MobileMenu() {
                         </li>
                         <li>
                                 <span onClick={() => handleClickScroll('especialidades')}
-                                      className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Sobre</span>
+                                      className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Especialidades</span>
                         </li>
                         <li>
                                 <span onClick={() => handleClickScroll('contact')}
