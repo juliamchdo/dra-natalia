@@ -1,20 +1,23 @@
+import {Depoimentos} from "@components/Depoimentos";
+import "./style/global.scss"
 export const metadata = {
     title: 'Dra. Natália Bittencourt',
     description: 'Medicina',
 }
 
-import Hero from '@components/hero'
-import Features from '@components/features'
+import Hero from '@components/Hero'
+import Atendimentos from '@components/Atendimentos'
 import Especialidades from '@components/Especialidades'
-import Testimonials from '@components/testimonials'
+import Footer from '@components/Footer'
 
 export default function Home() {
     return (
         <>
             <Hero/>
-            <Features/>
+            <Atendimentos/>
             <Especialidades/>
-            <Testimonials/>
+            <Depoimentos />
+            <Footer/>
         </>
     )
 }

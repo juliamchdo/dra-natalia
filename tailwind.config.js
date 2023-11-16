@@ -1,5 +1,8 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+/** @type {(tailwindConfig: object) => object} */
+const withMT = require("@material-tailwind/react/utils/withMT");
+
+
+module.exports = withMT( {
   content: [
     './app/**/*.{js,ts,jsx,tsx}',
     './pages/**/*.{js,ts,jsx,tsx}',
@@ -41,6 +44,9 @@ module.exports = {
           800: '#285E61',
           900: '#234E52',
         },
+        yellow: {
+          100: '#FDF6E9'
+        }
       },
       boxShadow: {
         xs: '0 0 0 1px rgba(0, 0, 0, 0.16)',
@@ -130,4 +136,4 @@ module.exports = {
   plugins: [
     require('@tailwindcss/forms'),
   ],
-};
+})

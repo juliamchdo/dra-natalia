@@ -14,8 +14,7 @@ export default function Hero() {
                         >Dra. Natália Bittencourt
                         </h1>
                         <div className="max-w-2xl">
-                            <p className="text-xl text-gray-600 mb-8 text-center">Cuidando de sua saúde com dedicação e
-                                carinho.</p>
+                            <p className="text-xl text-gray-600 mb-8 text-center">Guiando jornadas de bem-estar: combinando medicina e nutrição para inspirar uma vida saudável e equilibrada</p>
                         </div>
                     </div>
 

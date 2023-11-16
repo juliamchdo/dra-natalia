@@ -3,7 +3,7 @@ import '@/app/style/style.css'
 import { Inter } from 'next/font/google'
 
 import Header from '@components/ui/Header'
-import Banner from '@components/banner'
+import Banner from '@components/Banner'
 
 const inter = Inter({
   subsets: ['latin'],
