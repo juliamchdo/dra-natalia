@@ -29,7 +29,7 @@ export function Depoimentos() {
     return (
         <div>
 
-            <Carousel loop={false} autoplay={false}>
+            <Carousel loop={true} autoplay={true}>
 
                 {
                     messages.map((m, i) => {

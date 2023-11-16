@@ -13,7 +13,7 @@ export default function Especialidades() {
             <h2 className="h2 mb-4">Especialidades</h2>
           </div>
 
-          <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
+          <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start justify-center md:max-w-2xl lg:max-w-none">
             <Card />
           </div>
         </div>
