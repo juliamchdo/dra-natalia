@@ -45,7 +45,8 @@ module.exports = withMT( {
           900: '#234E52',
         },
         yellow: {
-          100: '#FDF6E9'
+          100: '#FDF6E9',
+          200: '#C6A264'
         }
       },
       boxShadow: {
