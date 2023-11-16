@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="absolute inset-0 bg-gray-100 pointer-events-none" aria-hidden="true"/>
 
             <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
-                <div className="flex items-center justify-around py-12 md:py-20">
+                <div className="flex items-center justify-around flex-col py-12 md:flex-row md:py-20">
 
                     <Image src={Logo} alt="Logo" width={400} height={200} />
 
@@ -28,18 +28,6 @@ export default function Footer() {
                             <p>(48) 9911-4373</p>
                         </div>
                     </div>
-
-                    {/*<div className="max-w-3xl mx-auto mt-20">*/}
-                    {/*    <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">*/}
-
-                    {/*        <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">*/}
-                    {/*            <blockquote className="text-xl font-medium mb-4">*/}
-                    {/*                Guiando jornadas de bem-estar: combinando medicina e nutrição para inspirar uma vida saudável e equilibrada.*/}
-                    {/*            </blockquote>*/}
-                    {/*        </div>*/}
-
-                    {/*    </div>*/}
-                    {/*</div>*/}
 
                 </div>
             </div>
