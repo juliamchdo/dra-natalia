@@ -22,7 +22,7 @@ export default function Footer() {
                         </div>
 
                         <div className="flex items-center justify-center gap-1 py-2 md:col-auto">
-                            <a href="https://wa.me/1XXXXXXXXXX?text=Ol%C3%A1%20gostaria%20de%20agendar%20uma%20consulta" target="_blank">
+                            <a href="https://api.whatsapp.com/send?phone=554899114373" target="_blank">
                                 <FaWhatsapp className="max-w-full fill-current text-green-600 text-4xl"/>
                             </a>
                             <p>(48) 9911-4373</p>

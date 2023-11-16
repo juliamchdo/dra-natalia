@@ -26,4 +26,17 @@
     }
   }
 
+  @media screen and (max-width: 720px){
+    .carousel-text-container{
+      gap: .8rem;
+
+      .carousel-text{
+        font-size: 1.5rem;
+      }
+      .carousel-author{
+        font-size: 1rem;
+      }
+    }
+  }
+
 }

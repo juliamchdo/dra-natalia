@@ -29,12 +29,12 @@ export function Depoimentos() {
     return (
         <div>
 
-            <Carousel loop={true} autoplay={true}>
+            <Carousel loop={false} autoplay={false}>
 
                 {
                     messages.map((m, i) => {
                         return (
-                            <div className="carousel w-full h-96" key={i}>
+                            <div className="carousel w-full h-96 p-10" key={i}>
                                 <div className="carousel-text-container">
 
                                     <Typography className="carousel-text" variant="lead" color="white">
