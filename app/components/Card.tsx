@@ -74,7 +74,7 @@ export function Card() {
             {
                 images.map(image => {
                     return (
-                        <div className="card">
+                        <div className="card" key={image.id}>
                             <div>
                                 <Image className="rounded" width={400} height={150} src={image.photo}  alt={image.title}/>
                             </div>
