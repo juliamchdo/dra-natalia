@@ -70,19 +70,23 @@ export function Card() {
     ]
 
     return (
-        images.map(image => {
-            return (
-                <div className="card">
-                    <div>
-                        <Image className="rounded" width={400} height={150} src={image.photo}  alt={image.title}/>
-                    </div>
+        <>
+            {
+                images.map(image => {
+                    return (
+                        <div className="card">
+                            <div>
+                                <Image className="rounded" width={400} height={150} src={image.photo}  alt={image.title}/>
+                            </div>
 
-                    <div className="card-content">
-                        <h3 className="card-title">{image.title}</h3>
-                        <p className="card-text">{image.text}</p>
-                    </div>
-                </div>
-            )
-        })
+                            <div className="card-content">
+                                <h3 className="card-title">{image.title}</h3>
+                                <p className="card-text">{image.text}</p>
+                            </div>
+                        </div>
+                    )
+                })
+            }
+        </>
     )
 }
