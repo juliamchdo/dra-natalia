@@ -2,8 +2,6 @@
 
 https://dra-natalia-bittencourt.netlify.app/
 
-===========================
-
 # Ferramentas Utilizadas
 ---------------
 
