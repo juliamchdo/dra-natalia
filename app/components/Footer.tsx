@@ -1,4 +1,4 @@
-import {FaLinkedin, FaWhatsapp} from 'react-icons/fa';
+import {FaInstagram, FaLinkedin, FaWhatsapp} from 'react-icons/fa';
 import Logo from "@/public/images/logo.svg"
 import React from "react";
 import Image from "next/image";
@@ -15,17 +15,24 @@ export default function Footer() {
 
                     <div className="max-w-sm md:max-w-1xl grid grid-cols-2 md:grid-cols-2">
 
-                        <div className="flex items-center justify-center py-2 md:col-auto">
+                        {/* <div className="flex items-center justify-center py-2 md:col-auto">
                             <a href="https://www.linkedin.com/in/natalia-bittencourt-da-silva-007594185/" target="_blank">
                                 <FaLinkedin className="max-w-full fill-current text-blue-700 text-4xl"/>
                             </a>
-                        </div>
+                        </div> */}
 
                         <div className="flex items-center justify-center gap-1 py-2 md:col-auto">
                             <a href="https://api.whatsapp.com/send?phone=554899114373" target="_blank">
-                                <FaWhatsapp className="max-w-full fill-current text-green-600 text-4xl"/>
+                                <FaWhatsapp className="max-w-full fill-current text-yellow-200 text-4xl"/>
                             </a>
                             <p>(48) 9911-4373</p>
+                        </div>
+
+                        <div className="flex items-center justify-center gap-1 py-2 md:col-auto">
+                            <a href="https://www.instagram.com/dranatalia.bittencourt/" target="_blank">
+                                <FaInstagram className="max-w-full fill-current text-yellow-200 text-4xl"/>
+                            </a>
+                            <p>dranatalia.bittencourt</p>
                         </div>
                     </div>
 
