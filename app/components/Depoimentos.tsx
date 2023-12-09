@@ -18,7 +18,7 @@ export function Depoimentos() {
             author: 'Júlia'
         },
         {
-            text: 'A Dra. Natália é uma endocrinologista excepcional! Seu atendimento vai além da simples consulta, transmitindo segurança, empatia e conhecimento!',
+            text: 'A Dra. Natália é uma endocrinologista excepcional! Seu atendimento vai além da simples consulta, transmitindo empatia e conhecimento!',
             author: 'Guilherme'
         },
         {
