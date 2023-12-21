@@ -1,0 +1,145 @@
+@-webkit-keyframes slide {
+  0% {
+    transform: translate(0px, 100px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@-moz-keyframes slide {
+  0% {
+    transform: translate(0px, 100px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@-o-keyframes slide {
+  0% {
+    transform: translate(0px, 100px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@keyframes slide {
+  0% {
+    transform: translate(0px, 100px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.hero-background {
+  width: 100%;
+  background-color: #c6a264;
+  background-image: url(../../public/images/header-background.png);
+  background-position: center bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  .hero-container {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .hero-content {
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+
+    color: #fdf6e9;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    h1 {
+      font-size: 2.6rem;
+      font-weight: 500;
+    }
+
+    span {
+      font-size: 1.6rem;
+    }
+
+    .hero-button {
+      width: 95%;
+      margin-top: 2rem;
+      padding: 1rem;
+      border: 1px solid #9b7431;
+      background-color: #9b7431;
+      box-shadow: -1px 3px 3px 0 rgba(80, 80, 80, 0.2);
+      border-radius: 2rem;
+      font-size: 1.4rem;
+      transition: all 0.3s ease;
+    }
+    .hero-button:hover {
+      width: 100%;
+      box-shadow: -1px 6px 10px 0 rgba(120, 60, 20, 0.2);
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hero-background {
+    height: 45vh;
+  }
+}
+// mobile
+@media screen and (min-width: 321px) and (max-width: 480px) {
+ 
+  .hero-background {
+    height: 35vh;
+  }
+
+  .hero-background .hero-content h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero-background .hero-content span {
+    font-size: 1.2rem;
+  }
+
+  .hero-background .hero-content .hero-button {
+    width: 80%;
+    font-size: 1.2rem;
+  }
+
+  .hero-content{
+    width: 80%;
+    padding-left: 5rem;
+  }
+}
+
+// extra small devices
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .hero-background {
+    height: 70vh;
+  }
+}
+
+// small tablets
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .hero-background {
+    height: 45vh;
+  }
+
+  .hero-background .hero-container {
+    padding-left: 6rem;
+  }
+}
+
+// large tablets/laptops
+@media screen and (min-width: 992px) {
+  .hero-background {
+    height: 100vh;
+  }
+
+  .hero-background .hero-container {
+    width: 100%;
+    padding-left: 20rem;
+  }
+}

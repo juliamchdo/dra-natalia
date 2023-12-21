@@ -1,28 +1,27 @@
-import HeroImage from '@/public/images/hero.jpg'
-import Image from "next/image";
+import "../style/hero.scss";
 
 export default function Hero() {
-    return (
-        <section className="relative" id="hero">
+  return (
+    <section className="hero-background relative" id="hero">
+      <div className="hero-container mx-auto px-4 sm:px-6">
+        <div className="pt-32 pb-12 md:pt-40 md:pb-20">
+          <div className="max-w-2xl flex justify-start items-center">
+            <div className="hero-content">
+              <h1>Dra. Natália Bittencourt da Silva</h1>
+              <span>Guiando jornadas de bem-estar</span>
 
-            <div className="max-w-6xl mx-auto px-4 sm:px-6 flex justify-center">
-
-                <div className="pt-32 pb-12 md:pt-40 md:pb-20">
-
-                    <div className="text-left float-left pb-10 md:pb-12">
-                        <h1 className="text-4xl md:text-5xl font-extrabold leading-tighter tracking-tighter mb-4 "
-                        >Dra. Natália Bittencourt
-                        </h1>
-                        <div className="max-w-2xl">
-                            <p className="text-xl text-gray-600 mb-8 text-center">Guiando jornadas de bem-estar: combinando medicina e nutrição para inspirar uma vida saudável e equilibrada</p>
-                        </div>
-                    </div>
-
-                    <Image className="relative rounded-full" src={HeroImage} width={400} height={400} alt="image"/>
-
-                </div>
-
+              <button className="hero-button">
+                <a
+                  href="https://api.whatsapp.com/send?phone=554899114373"
+                  target="_blank"
+                >
+                  Agende sua consulta!
+                </a>
+              </button>
             </div>
-        </section>
-    )
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }

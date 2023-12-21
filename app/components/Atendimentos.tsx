@@ -37,21 +37,21 @@ export default function Atendimentos() {
                             </div>
 
                             <ul>
-                                <li className="mb-4 text-lg"><span
+                                <li className="mb-4 text-xl"><span
                                     className="font-semibold">Conveniência:</span> Consultas virtuais no conforto do seu
                                     lar
                                 </li>
-                                <li className="mb-4 text-lg"><span className="font-semibold">Acesso fácil:</span> Sem
+                                <li className="mb-4 text-xl"><span className="font-semibold">Acesso fácil:</span> Sem
                                     deslocamentos ou espera em consultórios
                                 </li>
-                                <li className="mb-4 text-lg"><span
+                                <li className="mb-4 text-xl"><span
                                     className="font-semibold">Confidencialidade:</span> Consultas seguras e privadas
                                 </li>
-                                <li className="mb-4 text-lg"><span
+                                <li className="mb-4 text-xl"><span
                                     className="font-semibold">Flexibilidade:</span> Horários disponíveis que se ajustam
                                     à sua agenda
                                 </li>
-                                <li className="mb-4 text-lg"><span
+                                <li className="mb-4 text-xl"><span
                                     className="font-semibold">Atendimento personalizado:</span> Cuidado médico adaptado
                                     às suas necessidades
                                 </li>
@@ -69,18 +69,18 @@ export default function Atendimentos() {
                             </div>
 
                             <ul>
-                                <li className="mb-4 text-lg"><span
+                                <li className="mb-4 text-xl"><span
                                     className="font-semibold">Atendimento humanizado:</span> Cuidado médico com empatia
                                     e atenção
                                 </li>
-                                <li className="mb-4 text-lg"><span
+                                <li className="mb-4 text-xl"><span
                                     className="font-semibold">Diagnóstico preciso:</span> Exames e avaliações detalhadas
                                 </li>
-                                <li className="mb-4 text-lg"><span
+                                <li className="mb-4 text-xl"><span
                                     className="font-semibold">Tratamento personalizado</span> Abordagem médica
                                     individualizada
                                 </li>
-                                <li className="mb-4 text-lg"><span
+                                <li className="mb-4 text-xl"><span
                                     className="font-semibold">Confiança e segurança:</span> Acompanhamento presencial
                                     com uma profissional experiente
                                 </li>

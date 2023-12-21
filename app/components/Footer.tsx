@@ -15,12 +15,7 @@ export default function Footer() {
         <div className="flex items-center justify-around flex-col py-12 md:flex-row md:py-20">
           <Image src={Logo} alt="Logo" width={400} height={200} />
 
-          <div className="max-w-sm md:max-w-1xl grid grid-cols-2 md:grid-cols-2">
-            {/* <div className="flex items-center justify-center py-2 md:col-auto">
-                            <a href="https://www.linkedin.com/in/natalia-bittencourt-da-silva-007594185/" target="_blank">
-                                <FaLinkedin className="max-w-full fill-current text-blue-700 text-4xl"/>
-                            </a>
-                        </div> */}
+          <div className="max-w-md md:max-w-1xl grid grid-cols-2 md:grid-cols-2">
 
             <div className="flex items-center justify-center gap-1 py-2 md:col-auto">
               <a
@@ -29,7 +24,7 @@ export default function Footer() {
               >
                 <FaWhatsapp className="social max-w-full fill-current text-yellow-200 text-4xl" />
               </a>
-              <p>(48) 9911-4373</p>
+              <p className="text-lg">(48) 9911-4373</p>
             </div>
 
             <div className="flex items-center justify-center gap-1 py-2 md:col-auto">
@@ -39,7 +34,7 @@ export default function Footer() {
               >
                 <FaInstagram className="social max-w-full fill-current text-yellow-200 text-4xl" />
               </a>
-              <p>dranatalia.bittencourt</p>
+              <p className="text-lg">dranatalia.bittencourt</p>
             </div>
           </div>
         </div>
