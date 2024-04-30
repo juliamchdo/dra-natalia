@@ -9,7 +9,6 @@ export default function Hero() {
             <div className="hero-content">
               <h1>Dra. Natália Bittencourt da Silva</h1>
               <span>Guiando jornadas de bem-estar</span>
-
               <button className="hero-button">
                 <a
                   href="https://api.whatsapp.com/send?phone=554899114373"
