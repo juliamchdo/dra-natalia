@@ -1,14 +1,17 @@
 import "@/app/style/card.scss";
-import Diabetes from "@/public/images/diabetes.jpg"
-import Obesidade from "@/public/images/obesidade.jpg"
-import Osteoporose from "@/public/images/osteoporose.jpg"
-import Tireoide from "@/public/images/tireoide.jpg"
-import Menopausa from "@/public/images/menopausa.jpg"
+
 import Andropausa from "@/public/images/andropausa.jpg"
-import Transicao from "@/public/images/transicao.jpg"
-import Renal from "@/public/images/renal.jpg"
+import Diabetes from "@/public/images/diabetes.jpg"
 import Geral from "@/public/images/geral.jpg"
 import Image from "next/image";
+import Menopausa from "@/public/images/menopausa.jpg"
+import Nutrologia from "@/public/images/nutrologia.png"
+import Obesidade from "@/public/images/obesidade.jpg"
+import Osteoporose from "@/public/images/osteoporose.jpg"
+import Psquiatria from "@/public/images/psiquiatria.png"
+import Renal from "@/public/images/renal.jpg"
+import Tireoide from "@/public/images/tireoide.jpg"
+import Transicao from "@/public/images/transicao.jpg"
 
 export function Card() {
 
@@ -24,6 +27,12 @@ export function Card() {
       title: 'Obesidade',
       text: 'Emagrecimento com saúde, visando mudanças de hábitos e planos de tratamentos inovadores',
       photo: Obesidade
+    },
+    {
+      id: 'photo-10',
+      title: 'Endocrinologia e Nutrologia',
+      text: 'Tratamento de condições relacionadas à nutrição, como desnutrição, deficiências de vitaminas e minerais, distúrbios alimentares e promover um bem-estar em geral.',
+      photo: Nutrologia
     },
     {
       id: 'photo-3',
@@ -62,11 +71,17 @@ export function Card() {
       photo: Transicao
     },
     {
+      id: 'photo-11',
+      title: 'Psiquiatria',
+      text: 'Problemas emocionais como ansiedade, tristeza, raiva, oscilações de humor, e agitação que prejudicam sua rotina.',
+      photo: Psquiatria
+    },
+    {
       id: 'photo-9',
       title: 'Clínica geral',
       text: 'Especialista em clínica geral, cuidando de uma ampla variedade de condições de saúde',
       photo: Geral
-    }
+    },
   ]
 
   return (

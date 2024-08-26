@@ -1,10 +1,12 @@
 "use client";
 
-import { Carousel, Typography } from "@material-tailwind/react";
 import "@/app/style/carousel.scss"
-import React from "react";
+
+import { Carousel, Typography } from "@material-tailwind/react";
+
 import { ImQuotesLeft } from "react-icons/im";
 import { ImQuotesRight } from "react-icons/im";
+import React from "react";
 
 export function Depoimentos() {
 
@@ -28,18 +30,18 @@ export function Depoimentos() {
   ]
   return (
     <div>
-      <Carousel loop={true} autoplay={true}>
+      <Carousel loop={true} autoplay={true} placeholder="Dpoimentos" onPointerEnterCapture="Next" onPointerLeaveCapture="Back">
         {
           messages.map((m, i) => {
             return (
               <div className="carousel w-full h-96 p-10" key={i}>
                 <div className="carousel-text-container">
-                  <Typography className="carousel-text" variant="lead" color="white">
+                  <Typography className="carousel-text" variant="lead" color="white" placeholder="Dpoimentos" onPointerEnterCapture="Next" onPointerLeaveCapture="Back">
                     <ImQuotesLeft fill="white" />
                     {m.text}
                     <ImQuotesRight fill="white" />
                   </Typography>
-                  <Typography variant="lead" color="white" className="carousel-author">
+                  <Typography variant="lead" color="white" className="carousel-author" placeholder="Dpoimentos" onPointerEnterCapture="Next" onPointerLeaveCapture="Back">
                     {m.author}
                   </Typography>
                 </div>
