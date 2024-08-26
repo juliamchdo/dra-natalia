@@ -1,8 +1,9 @@
 'use client'
 
 import React, { useState } from 'react'
-import {FaWhatsapp} from "react-icons/fa";
+
 import {AiOutlineClose} from "react-icons/ai";
+import {FaWhatsapp} from "react-icons/fa";
 
 export default function Banner() {
 
@@ -12,10 +13,10 @@ export default function Banner() {
     <>
       {bannerOpen && (
         <div className="fixed bottom-0 right-0 w-full md:bottom-8 md:right-12 md:w-auto z-60">
-          <div className="text-slate-50 text-sm p-3 bg-yellow-200 rounded shadow-lg flex justify-between">
+          <div className="text-slate-50 text-xl p-5 bg-yellow-200 rounded shadow-lg flex justify-between">
             <a href="https://api.whatsapp.com/send?phone=554899114373" target="_blank"
                className="flex items-center justify-center">
-              <FaWhatsapp className="text-xl text-white pr-2"/>
+              <FaWhatsapp className="text-3xl text-white pr-2"/>
               Agende sua consulta
             </a>
             <button className="text-slate-500 hover:text-slate-400 pl-2 ml-3 border-l border-gray-700" onClick={() => setBannerOpen(false)}>
