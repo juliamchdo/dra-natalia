@@ -1,14 +1,16 @@
-import {Depoimentos} from "@components/Depoimentos";
 import "./style/global.scss"
+
+import Atendimentos from '@components/Atendimentos'
+import {Depoimentos} from "@components/Depoimentos";
+import Especialidades from '@components/Especialidades'
+import Footer from '@components/Footer'
+import Hero from '@components/Hero'
+
 export const metadata = {
     title: 'Dra. Natália Bittencourt',
     description: 'Medicina',
 }
 
-import Hero from '@components/Hero'
-import Atendimentos from '@components/Atendimentos'
-import Especialidades from '@components/Especialidades'
-import Footer from '@components/Footer'
 
 export default function Home() {
     return (

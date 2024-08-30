@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.14",
-    "@material-tailwind/react": "^2.1.1",
+    "@material-tailwind/react": "^2.1.9",
     "@tomtom-international/web-sdk-maps": "^6.23.0",
     "@types/node": "^20.2.5",
     "@types/react": "^18.2.7",

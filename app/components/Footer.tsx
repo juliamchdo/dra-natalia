@@ -1,7 +1,8 @@
-import { FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+
+import Image from "next/image";
 import Logo from "@/public/images/logo.svg";
 import React from "react";
-import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -11,7 +12,7 @@ export default function Footer() {
         aria-hidden="true"
       />
 
-      <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 mb-8">
         <div className="flex items-center justify-around flex-col py-12 md:flex-row md:py-20">
           <Image src={Logo} alt="Logo" width={400} height={200} />
           <div className="max-w-md md:max-w-1xl grid grid-cols-2 md:grid-cols-2">

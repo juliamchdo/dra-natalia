@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+
 import { Transition } from '@headlessui/react'
 
 export default function MobileMenu() {
@@ -19,19 +20,23 @@ export default function MobileMenu() {
     const clickHandler = ({ target }: { target: EventTarget | null }): void => {
       if (!mobileNav.current || !trigger.current) return;
       if (!mobileNavOpen || mobileNav.current.contains(target as Node) || trigger.current.contains(target as Node)) return;
-      setMobileNavOpen(false)
+      setMobileNavOpen(false);
     };
-    document.addEventListener('click', clickHandler)
-    return () => document.removeEventListener('click', clickHandler)
-  })
-  useEffect(() => {
+  
     const keyHandler = ({ keyCode }: { keyCode: number }): void => {
       if (!mobileNavOpen || keyCode !== 27) return;
-      setMobileNavOpen(false)
+      setMobileNavOpen(false);
     };
-    document.addEventListener('keydown', keyHandler)
-    return () => document.removeEventListener('keydown', keyHandler)
-  })
+  
+    document.addEventListener('click', clickHandler);
+    document.addEventListener('keydown', keyHandler);
+  
+    return () => {
+      document.removeEventListener('click', clickHandler);
+      document.removeEventListener('keydown', keyHandler);
+    };
+  }, [mobileNavOpen]);
+  
 
   return (
     <div className="flex md:hidden">

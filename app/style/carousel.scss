@@ -1,41 +1,34 @@
 .carousel{
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: #C6A264;
-
-  .carousel-text-container{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    max-width: 100rem;
-    gap: 4rem;
     .carousel-text{
-      display: flex;
       gap: 2rem;
       text-align: center;
-      font-size: 2rem;
       font-weight: 500;
       font-style: italic;
     }
 
     .carousel-author{
-      font-size: 1.6rem;
       font-weight: 200;
       border-bottom: 1px solid white;
     }
-  }
+  
 
   @media screen and (max-width: 720px){
-    .carousel-text-container{
-      gap: .8rem;
-
       .carousel-text{
         font-size: 1.5rem;
       }
       .carousel-author{
         font-size: 1rem;
       }
+    
+  }
+
+  @media screen and (min-width: 721px) {
+    .carousel-text{
+      font-size: 2rem;
+    }
+    .carousel-author{
+      font-size: 1rem;
     }
   }
 
