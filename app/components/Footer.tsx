@@ -23,7 +23,7 @@ export default function Footer() {
               >
                 <FaWhatsapp className="social max-w-full fill-current text-yellow-200 text-4xl" />
               </a>
-              <p className="text-lg">(48) 9911-4373</p>
+              <p className="text-lg">(48) 99911-4373</p>
             </div>
             <div className="flex items-center justify-center gap-1 py-2 md:col-auto">
               <a
@@ -32,7 +32,7 @@ export default function Footer() {
               >
                 <FaInstagram className="social max-w-full fill-current text-yellow-200 text-4xl" />
               </a>
-              <p className="text-lg">dranatalia.bittencourt</p>
+              <p className="text-xl">dranatalia.bittencourt</p>
             </div>
           </div>
         </div>
