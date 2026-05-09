@@ -14,7 +14,7 @@ export default function Banner() {
       {bannerOpen && (
         <div className="fixed bottom-8 right-12 w-auto z-60">
           <div className="text-slate-50 md:text-2xl text-xl md:p-5 p-2.5 bg-green-500 rounded shadow-lg flex justify-between">
-            <a href="https://api.whatsapp.com/send?phone=5548999114373" target="_blank"
+            <a href="https://api.whatsapp.com/send?phone=5548996171515" target="_blank"
                className="flex items-center justify-center">
               <FaWhatsapp className="text-3xl text-white pr-2"/>
               Agende sua consulta

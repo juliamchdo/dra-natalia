@@ -38,9 +38,12 @@ export function Depoimentos() {
 
   useEffect(() => {
     if (!AUTOPLAY) return;
-    const interval = setInterval(next, INTERVAL_LENGTH);
+    const len = messages.length;
+    const interval = setInterval(() => {
+      setCurrentItem((curr) => (curr === len - 1 ? 0 : curr + 1));
+    }, INTERVAL_LENGTH);
     return () => clearInterval(interval);
-  }, []);
+  }, [AUTOPLAY, INTERVAL_LENGTH, messages.length]);
 
 
 

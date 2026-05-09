@@ -10,7 +10,7 @@ export default function Hero() {
           <div className="max-w-2xl flex justify-start items-center">
             <div className="hero-content">
               <h1 className="font-bold">Dra. Natália Bittencourt da Silva</h1>
-              <h2 className="text-xl">CRM/SP - 234806 | CRM/GO - 31795</h2>
+              <h2 className="text-xl">CRM/SP - 234806 | CRM/SC - 39911 | RQE MFEC: 27528</h2>
               <span>Médica especialista em saúde da família</span>
               <span>
                 Pós graduada em Endocrinologia, Nutrologia e Psiquiatria
@@ -28,7 +28,7 @@ export default function Hero() {
                 </button>
                 <button className="hero-button bg-green-500">
                   <a
-                    href="https://api.whatsapp.com/send?phone=554899114373"
+                    href="https://api.whatsapp.com/send?phone=5548996171515"
                     target="_blank"
                     className="flex justify-center items-center gap-1 sm:gap-7"
                   >
