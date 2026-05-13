@@ -2,7 +2,7 @@ import "./style/global.scss"
 
 import Atendimentos from '@components/Atendimentos'
 import {Depoimentos} from "@components/Depoimentos";
-import Especialidades from '@components/Especialidades'
+// import Especialidades from '@components/Especialidades'
 import Footer from '@components/Footer'
 import Hero from '@components/Hero'
 
@@ -17,7 +17,7 @@ export default function Home() {
         <>
             <Hero/>
             <Atendimentos/>
-            <Especialidades/>
+            {/* <Especialidades/> */}
             <Depoimentos />
             <Footer/>
         </>

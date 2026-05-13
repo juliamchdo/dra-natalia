@@ -105,14 +105,14 @@ export default function Footer() {
                 </a>
               </li>
 
-              <li>
+              {/* <li>
                 <a
                   href="#especialidades"
                   className="text-[#5B4B45]/85 transition-colors hover:text-yellow-200"
                 >
                   Especialidades
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a
                   href="#hero"

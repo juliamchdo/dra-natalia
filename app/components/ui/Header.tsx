@@ -30,10 +30,10 @@ export default function Header() {
                 <span onClick={() => handleClickScroll('features')}
                   className="menu-items font-medium px-5 py-3 flex items-center transition duration-150 ease-in-out">Atendimentos</span>
               </li>
-              <li>
-                <span onClick={() => handleClickScroll('especialidades')}
-                  className="menu-items font-medium px-5 py-3 flex items-center transition duration-150 ease-in-out">Especialidades</span>
-              </li>
+                {/* <li>
+                  <span onClick={() => handleClickScroll('especialidades')}
+                    className="menu-items font-medium px-5 py-3 flex items-center transition duration-150 ease-in-out">Especialidades</span>
+                </li> */}
               <li>
                 <span onClick={() => handleClickScroll('contact')}
                   className="menu-items font-medium px-5 py-3 flex items-center transition duration-150 ease-in-out">Contatos</span>
