@@ -16,11 +16,9 @@ export default function Header() {
     <header
       className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out h-2`}>
       <div className="header">
-        <div className="flex items-center justify-between h-16 md:h-20">
+        <div className="flex items-center justify-between h-16 md:h-20 w-full px-5">
           <nav className="hidden md:flex md:grow">
-            <div className="logo">
               <Logo />
-            </div>
             <ul className="flex grow justify-end items-center">
               <li>
                 <span onClick={() => handleClickScroll('hero')}

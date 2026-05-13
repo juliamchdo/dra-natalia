@@ -11,7 +11,7 @@ export default function Hero() {
             <div className="hero-content">
               <h1 className="font-bold">Dra. Natália Bittencourt da Silva</h1>
               <h2 className="text-xl">CRM/SP - 234806 | CRM/SC - 39911 | RQE MFEC: 27528</h2>
-              <span>Médica especialista em saúde da família</span>
+              {/* <span>Médica especialista em saúde da família</span> */}
               <span>
                 Pós graduada em Endocrinologia, Nutrologia e Psiquiatria
               </span>

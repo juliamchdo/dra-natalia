@@ -8,7 +8,7 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 
-import Logo from "@/public/images/logo.svg";
+import Logo from "@/public/images/new-logo.png";
 
 const DOCTORALIA_URL =
   "https://www.doctoralia.com.br/natalia-bittencourt-da-silva/medico-de-familia-endocrinologista-nutrologo/belo-horizonte";
@@ -77,8 +77,8 @@ export default function Footer() {
               <strong className="font-semibold text-[#5B4B45]">
                 consultas 100% on-line
               </strong>
-              , com foco em emagrecimento e saúde metabólica com segurança e
-              acolhimento.
+              {/* , com foco em emagrecimento e saúde metabólica com segurança e
+              acolhimento. */}
             </p>
             <p className="mt-4 text-[1.45rem] leading-relaxed text-[#5B4B45]/70">
               CRM/SP - 234806 | CRM/SC - 39911 | RQE MFEC: 27528
@@ -129,16 +129,16 @@ export default function Footer() {
               Nossos contatos
             </h2>
             <ul className="flex flex-col gap-4 text-[#5B4B45]/85">
-              <li className="flex gap-3">
+              {/* <li className="flex gap-3">
                 <FaHome
                   className="mt-1 shrink-0 text-xl text-yellow-200"
                   aria-hidden
                 />
-                <span>
+                 <span>
                   Dra. Natália Bittencourt da Silva — médica para emagrecer com
                   saúde
-                </span>
-              </li>
+                </span> 
+              </li> */}
               <li className="flex gap-3">
                 <FaWhatsapp
                   className="mt-1 shrink-0 text-xl text-yellow-200"
